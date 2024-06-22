@@ -1,0 +1,5 @@
+export { default as Blog }from './blog/Blog'
+export { default as Feature } from './features/Features'
+export { default as Blog } from './footers/Footers'
+export { default as Blog } from './possibility/Possibility'
+export { default as Blog } from './whatGPT3/WhatGPT3'
