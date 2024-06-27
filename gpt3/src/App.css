@@ -12,9 +12,11 @@ a {
 }
 
 .gradient__bg{
-  
   background: linear-gradient(90deg, rgba(35, 35, 132, 1) 0%, rgba(1, 0, 12, 1) 100%);
+}
 
+.gradient__text{
+  background: var(--gradient-text);
 }
 /* .App {
   text-align: center;
