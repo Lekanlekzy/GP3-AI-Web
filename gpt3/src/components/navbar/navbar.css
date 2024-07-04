@@ -58,3 +58,10 @@
     cursor: pointer;
 }
 
+.gpt3-navbar-links_logo{
+    cursor: pointer;
+}
+
+.gpt-navbar-menu{
+    display: none;
+}
