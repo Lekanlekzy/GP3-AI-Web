@@ -65,3 +65,27 @@
 .gpt-navbar-menu{
     display: none;
 }
+
+.gpt-navbar-menu svg {
+    cursor: pointer;
+}
+
+.gpt-navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.gpt-navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3-navbar-links_container{
+        display: none;
+    }
+    .gpt-navbar-menu{
+        display: flex;
+    }
+}
