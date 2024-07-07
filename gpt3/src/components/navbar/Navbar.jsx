@@ -14,7 +14,7 @@ const Menu = ()=> (
 )
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState("false")
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <div className='gpt3-navbar'>
@@ -31,8 +31,9 @@ const Navbar = () => {
         <button type='button'> Sign Up</button>
         <div className='gpt-navbar-menu'>
           {toggleMenu
-          ? <RiMenu3Line color='#fff' size={27} onClick={()=> setToggleMenu(true)} />
-          : <RiCloseLine color='#fff' size={27} onClick={()=> setToggleMenu(false)} />
+          ? <RiCloseLine color='#fff' size={27} onClick={()=> setToggleMenu(false)} />
+          
+          :<RiMenu3Line color='#fff' size={27} onClick={()=> setToggleMenu(true)} /> 
           }
           {toggleMenu && (
             <div className='gpt-navbar-menu_container scale-up-center'>

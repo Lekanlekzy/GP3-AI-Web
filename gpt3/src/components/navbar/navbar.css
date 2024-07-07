@@ -64,6 +64,8 @@
 
 .gpt-navbar-menu{
     display: none;
+    margin-left: 1rem;
+    position: relative;
 }
 
 .gpt-navbar-menu svg {
@@ -75,6 +77,16 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 7px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
 
 .gpt-navbar-menu_container p{
