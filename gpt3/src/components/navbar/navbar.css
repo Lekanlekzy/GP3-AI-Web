@@ -101,3 +101,24 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .gpt3-navbar{
+        padding: 2rem 4rem;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3-navbar{
+        padding: 1rem;
+    }
+    
+    /* .gpt-navbar__sign p{
+        display: none;
+    } */
+
+    /* .gpt-navbar-menu_container {
+        top: 20px;
+    } */
+}
