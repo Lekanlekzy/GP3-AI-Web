@@ -16,6 +16,7 @@ a {
 }
 
 .gradient__text{
+  /* color: var(--gradient-text); */
   background: var(--gradient-text);
 }
 /* .App {

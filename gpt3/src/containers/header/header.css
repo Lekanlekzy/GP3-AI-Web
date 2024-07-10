@@ -1,4 +1,32 @@
-.gpt3__header-content p{
-    color: #81AFDD;
+.gpt3__header {
+  display: flex;
+}
 
+.gpt3__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.gpt3__header-content h1 {
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.gpt3__header-content p {
+  font-size: 20px;
+  line-height: 27.32px;
+
+  color: var(--color-text);
+  font-weight: 800;
+  margin-top: 0.5rem;
+}
+
+.gpt3__header-image img {
+  width: 2rem;
 }
