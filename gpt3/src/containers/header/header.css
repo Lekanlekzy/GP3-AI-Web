@@ -24,9 +24,18 @@
 
   color: var(--color-text);
   font-weight: 800;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
 
+.gpt3__header-content-input{
+  width: 100%;
+  margin: 2rem 0 1rem;
+  display: flex;
+}
+
+.gpt3__header-content-input input{
+  
+}
 .gpt3__header-image img {
   width: 2rem;
   
