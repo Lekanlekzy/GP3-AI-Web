@@ -41,14 +41,26 @@
   min-height: 50px;
   font-size: 20px;
   line-height: 27px;
-  width: 456px;
   height: 73px;
   border: 2px solid #052D56;
   outline: none;
   border-radius: 5px 0px 0px 5px;
   background: #052D56;
   color: #FFF;
+  font-family: var(--font-family)
   
+
+}
+
+.gpt3__header-content-input button {
+  width: 174px;
+  height: 73px;
+  border-radius: 0px 5px 5px 0px;
+  font-family: var(--font-family);
+  border: none;
+  background: #FF4820;
+  color: #FFF;
+
 }
 
 .gpt3__header-image img {
