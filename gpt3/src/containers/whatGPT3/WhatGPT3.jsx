@@ -12,7 +12,11 @@ const whatGPT3 = () => {
         <h1 className='gradient-text'>The possibilities are beyond your imagination</h1>
         <p>Explore The Library</p>
       </div>
-      <div c></div>
+      <div className='gpt3__whatgpt3-container'>
+        <Feature />
+        <Feature />
+        <Feature />
+      </div>
     </div>
   )
 }
