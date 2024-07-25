@@ -1,5 +1,12 @@
 import React from 'react'
 import './feature.css'
+
+const featureData = () =>{
+  {
+    
+  }
+}
+
 const feature = () => {
   return (
     <div className="gpt3__features section__padding" id="features">
