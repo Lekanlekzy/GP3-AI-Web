@@ -31,6 +31,7 @@ const feature = () => {
         {featureData.map((item, index) => callback(item, index)
         (<Feature />))
         (<Feature />))
+        (<Feature />))
         }
       </div>
     </div>
