@@ -30,6 +30,7 @@ const feature = () => {
       <div className='gpt3__features-container'>
         {featureData.map((item, index) => callback(item, index)
         (<Feature />))
+        (<Feature />))
         }
       </div>
     </div>
