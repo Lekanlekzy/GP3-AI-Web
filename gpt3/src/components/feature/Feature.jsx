@@ -1,6 +1,6 @@
 import React from 'react'
 import './feature.css'
-import { Feature } from '..'
+import { Features } from '../../containers'
 
 const featureData = [
   {
@@ -28,11 +28,10 @@ const feature = () => {
         <p>Request Early Access to Get Started</p>
       </div>
       <div className='gpt3__features-container'>
-        {featureData.map((item, index) => callback(item, index)
-        (<Feature />))
-        (<Feature />))
-        (<Feature />))
-        }
+        {featureData.map((item, index) => (
+          <Features />
+
+        ))}
       </div>
     </div>
   )
