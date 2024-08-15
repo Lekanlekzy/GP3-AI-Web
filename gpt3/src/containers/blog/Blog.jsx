@@ -2,7 +2,10 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div>
+    <div className="gpt3__blog section__padding" id="blog">
+      <div className="gpt3__blog-heading">
+      <h1 className="gradient__text">A lot is happening, <br /> We are blogging about it.</h1>
+    </div>
       
     </div>
   )
