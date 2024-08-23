@@ -8,6 +8,9 @@ const Blog = () => {
     </div>
     <div className='gpt3__blog-container'>
       <div className='gpt3__blog-container_GroupA'>
+        
+      </div>
+      <div className='gpt3__blog-container_GroupB'>
 
       </div>
     </div>
