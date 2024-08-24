@@ -12,6 +12,9 @@ const Blog = () => {
       </div>
       <div className='gpt3__blog-container_GroupB'>
         <article/>
+        <article/>
+        <article/>
+        <article/>
       </div>
     </div>
       
