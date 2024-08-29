@@ -1,5 +1,6 @@
 import React from 'react'
 import { Article } from '../../components'
+import blog  from './blog.css'
 import {blog01,blog02,blog03,blog04,blog05} from './blogImage'
 
 
