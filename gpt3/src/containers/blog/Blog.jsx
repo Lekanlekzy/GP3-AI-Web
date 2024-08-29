@@ -1,5 +1,6 @@
 import React from 'react'
 import { Article } from '../../components'
+import 
 const Blog = () => {
   return (
     <div className="gpt3__blog section__padding" id="blog">
