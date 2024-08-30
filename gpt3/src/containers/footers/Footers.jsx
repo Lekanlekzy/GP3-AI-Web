@@ -3,7 +3,12 @@ import './footer.css'
 const Footers = () => {
   return (
     <div>
-      
+      <div>
+
+      </div>
+      <div>
+        
+      </div>
     </div>
   )
 }
