@@ -1,15 +1,21 @@
+.gpt3__footer{
+    background: var(--color-footer);
+}
+
 .gpt3__footer-content {
   text-align: center;
-  width: 821px;
-  height: 150px;
-  top: 4796px;
-  left: 310px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Manrope;
-  font-size: 62px;
+  font-size: 2rem;
   font-weight: 800;
-  line-height: 75px;
-  letter-spacing: -0.04em;
-  text-align: center;
+}
+
+.gpt3__footer-content-btn{
+    text-decoration: none;
+    background-color: var(--color-footer);
+    border: none;
+    color: #FFFFFF;
+    font-size: 10px;
+    border: 1px solid #FFFFFF;
+    padding: 20px;
+
+
 }

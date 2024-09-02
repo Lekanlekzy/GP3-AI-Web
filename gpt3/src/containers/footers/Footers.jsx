@@ -5,7 +5,7 @@ const Footers = () => {
     <div className='gpt3__footer' >
       <div className='gpt3__footer-content'>
         <h1 className=' gradient__text'>Do you want to step in to the future before others</h1>
-        <button>Request Early Access</button>
+        <button className='gpt3__footer-content-btn'>Request Early Access</button>
       </div>
       <div>
 
