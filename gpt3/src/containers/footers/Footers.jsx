@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+
 const Footers = () => {
   return (
     <div className='gpt3__footer' >
@@ -7,8 +8,13 @@ const Footers = () => {
         <h1 className=' gradient__text'>Do you want to step in to the future before others</h1>
         <button className='gpt3__footer-content-btn'>Request Early Access</button>
       </div>
-      <div>
+      <div className='gpt3__footer-down_Section'>
+        <div className='gpt3__footer-down_SectionA'>
 
+        </div>
+        <div className='gpt3__footer-down_SectionB'>
+          
+        </div>
       </div>
     </div>
   )
