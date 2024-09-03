@@ -13,10 +13,7 @@ const Menu = ()=> (
   </>
 )
 
-const 
-
-
-Navbar = () => {
+const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (

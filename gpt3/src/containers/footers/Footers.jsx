@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import
 
 const Footers = () => {
   return (
@@ -13,7 +14,7 @@ const Footers = () => {
 
         </div>
         <div className='gpt3__footer-down_SectionB'>
-          
+          <img src='logo' />
         </div>
       </div>
     </div>
