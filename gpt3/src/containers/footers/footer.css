@@ -18,3 +18,10 @@
     border: 1px solid #FFFFFF;
     padding: 10px 20px;
 }
+
+.gpt3__footer-down_Section{
+    display: flex;
+}
+.gpt3__footer-down_SectionA p{
+    color: #FFFFFF;
+}

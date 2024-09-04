@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 
 const Footers = () => {
   return (
@@ -11,10 +11,17 @@ const Footers = () => {
       </div>
       <div className='gpt3__footer-down_Section'>
         <div className='gpt3__footer-down_SectionA'>
-
+        <img src={logo} />
+          <p>
+          Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved
+          </p>
         </div>
         <div className='gpt3__footer-down_SectionB'>
-          <img src={logo} />
+          <p><a>Links</a></p>
+          <p><a>Overons</a></p>
+          <p><a>Social Media</a></p>
+          <p><a>Contact</a></p>
+          <p><a>Counters</a></p>
         </div>
       </div>
     </div>
