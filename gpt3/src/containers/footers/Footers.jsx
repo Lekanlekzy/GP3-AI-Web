@@ -6,7 +6,7 @@ const Footers = () => {
   return (
     <div className='gpt3__footer' >
       <div className='gpt3__footer-content'>
-        <h1 className=' gradient__text'>Do you want to step in to the future before others</h1>
+        <h1 className=' gradient__text'>Do you want to step in to the future before others ?</h1>
         <button className='gpt3__footer-content-btn'>Request Early Access</button>
       </div>
       <div className='gpt3__footer-down_Section'>
@@ -22,6 +22,18 @@ const Footers = () => {
           <p><a>Social Media</a></p>
           <p><a>Contact</a></p>
           <p><a>Counters</a></p>
+        </div>
+        <div className='gpt3__footer-down_SectionB'>
+          <p><a>Company</a></p>
+          <p><a>Terms & Conditions </a></p>
+          <p><a>Privacy Policy</a></p>
+          <p><a>Contact</a></p>
+        </div>
+        <div className='gpt3__footer-down_SectionB'>
+          <p><a>Get in Touch</a></p>
+          <p><a> Canada</a></p>
+          <p><a>8888888</a></p>
+          <p><a>info@gpt3.ca</a></p>
         </div>
       </div>
     </div>

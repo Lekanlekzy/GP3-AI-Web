@@ -6,7 +6,7 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
-  margin-bottom: 180px;
+  padding: 10rem 1rem;
 }
 
 .gpt3__footer-content-btn{
@@ -25,4 +25,17 @@
 }
 .gpt3__footer-down_SectionA p{
     color: #FFFFFF;
+}
+
+.gpt3__footer-down_SectionB a {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    width: 32px;
+    height: 17px;
+    top: 5255px;
+    left: 611px;
+    gap: 0px;
+    opacity: 0px;
 }
