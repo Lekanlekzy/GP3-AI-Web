@@ -21,6 +21,7 @@
 
 .gpt3__footer-down_Section{
     display: flex;
+    justify-content: space-around;
 }
 .gpt3__footer-down_SectionA p{
     color: #FFFFFF;
