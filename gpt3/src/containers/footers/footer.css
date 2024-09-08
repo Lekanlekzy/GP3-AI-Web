@@ -51,7 +51,8 @@
 @media only screen and (max-width: 600px) {
     .gpt3__footer-down_Section{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        text-align: center;
     }
 
     .gpt3__footer-down_SectionB{

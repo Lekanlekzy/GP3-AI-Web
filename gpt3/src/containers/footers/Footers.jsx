@@ -15,7 +15,7 @@ const Footers = () => {
         <div className='gpt3__footer-down_SectionA'>
         <img src={logo} />
           <p>
-          Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved
+          Crechterwoord K12 182 DK Alknjkcb
           </p>
         </div>
         <div className='gpt3__footer-down_SectionB'>
