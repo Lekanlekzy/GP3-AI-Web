@@ -1,6 +1,8 @@
 import React from 'react'
 import './footer.css'
 import logo from '../../assets/logo.svg'
+import { FaRegCopyright } from "react-icons/fa";
+
 
 const Footers = () => {
   return (
@@ -35,6 +37,9 @@ const Footers = () => {
           <p><a>8888888</a></p>
           <p><a>info@gpt3.ca</a></p>
         </div>
+      </div>
+      <div>
+      <FaRegCopyright />
       </div>
     </div>
   )
