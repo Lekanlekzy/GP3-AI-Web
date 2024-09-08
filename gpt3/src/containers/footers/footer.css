@@ -22,6 +22,7 @@
 .gpt3__footer-down_Section{
     display: flex;
     justify-content: space-around;
+    margin: 0 0 3rem 0;
 }
 
 .gpt3__footer-down_SectionA p{
@@ -40,3 +41,21 @@
     gap: 0px;
     opacity: 0px;
 }
+
+.gpt3__footer-cpy{
+    color: #FFFFFF;
+    font-size: 7px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .gpt3__footer-down_Section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gpt3__footer-down_SectionB{
+        display: flex;
+        flex-direction: column;
+    }
+  }

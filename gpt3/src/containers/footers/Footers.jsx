@@ -38,8 +38,8 @@ const Footers = () => {
           <p><a>info@gpt3.ca</a></p>
         </div>
       </div>
-      <div>
-      <FaRegCopyright />
+      <div className='gpt3__footer-cpy'>
+      <FaRegCopyright color='#fff' /> <a>2021 GPT-3. All rights reserved.</a>
       </div>
     </div>
   )
